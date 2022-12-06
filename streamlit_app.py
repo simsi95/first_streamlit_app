@@ -48,4 +48,4 @@ streamlit.dataframe(my_data_rows)
 
 #Allow the end user to add a fruit to the lsit
 add_my_fruit = streamlit.multiselect("What fruit would you like to add?", list(my_fruit_list.index),['Jackfruit'])
-fruits_to_show = my_fruit_list.loc[add_my_fruit]
+fruitsadd_to_show = my_fruit_list.loc[add_my_fruit]
